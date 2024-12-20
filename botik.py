@@ -11,7 +11,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 def main():
     # Создание приложения с токеном бота
-    application = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+    application = ApplicationBuilder().token("8087532533:AAFfNBGi-uegrvgwWzpVkucK1-h9ZuL5bUQ").build()
 
     # Обработчики команд и сообщений
     application.add_handler(CommandHandler("start", start))
